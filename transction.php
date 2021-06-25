@@ -175,7 +175,7 @@ if(isset($_POST['btn2'])){
 <form action="transctionhistory.php" method="post">
     <div id="contentinsidelastform">
         <label for="ai">Enter the Amount</label>
-        <input type="text" id="ai" name="amount">
+        <input type="number" id="ai" name="amount">
         <button name="btn6">Send</button>
     </div>
 </form>
